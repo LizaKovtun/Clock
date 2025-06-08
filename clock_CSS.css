@@ -1,0 +1,39 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-color: #000000;
+}
+.Simple_input_main{
+	margin-left: 500px;
+	margin-top: 5px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	user-select: none
+}
+.Simple_input{
+	width: 160px;
+	margin-left: 3px;
+	user-select: none
+}
+.Knob_input_Main{
+	position: relative;
+}
+.K_seconds_div{
+	position: absolute;
+	left: 680px;
+	top: 255px;
+}
+.K_minutes_div{
+	position: absolute;
+	left: 620px;
+	top: 196px;
+}
+.K_hours_div{
+	position: absolute;
+	left: 554px;
+	top: 132px;
+}
